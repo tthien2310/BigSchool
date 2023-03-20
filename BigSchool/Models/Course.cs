@@ -6,10 +6,9 @@ using System.Web;
 
 namespace BigSchool.Models
 {
-    public class Course
+    public class CourseID
     {
         public int Id { get; set; }
-
         public ApplicationUser Lecturer { get; set; }
         [Required]
         public string LecturerId { get; set; }
